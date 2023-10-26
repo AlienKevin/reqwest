@@ -81,7 +81,7 @@ __internal_proxy_sys_no_cache = []
 
 [dependencies]
 base64 = "0.21"
-http = "0.2"
+http = { git = "https://github.com/AlienKevin/http", rev = "ea5e20a" }
 url = "2.2"
 bytes = "1.0"
 serde = "1.0"
